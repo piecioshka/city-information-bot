@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - botbuilder > botframework-connector > ms-rest-js > axios:
+        patched: '2019-05-06T01:34:07.090Z'
+    - botbuilder > botbuilder-core > botframework-schema > ms-rest-js > axios:
+        patched: '2019-05-06T01:34:07.090Z'
+    - botbuilder-dialogs > botbuilder-core > botframework-schema > ms-rest-js > axios:
+        patched: '2019-05-06T01:34:07.090Z'
+    - botbuilder > botframework-connector > botframework-schema > ms-rest-js > axios:
+        patched: '2019-05-06T01:34:07.090Z'
+    - botbuilder > botframework-connector > ms-rest-azure-js > ms-rest-js > axios:
+        patched: '2019-05-06T01:34:07.090Z'
